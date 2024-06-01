@@ -7,3 +7,11 @@
 -Feita a mutation "login" para solicitar os dados do backend utilizando GraphQL.
 
 -Frontend feito em angular 17, com tailwind e graphql request.
+
+#Para rodar o projeto:
+
+-Clonar o projeto usando git clone.
+
+-Rodar no terminal "yarn" para baixar as dependências.
+
+-Para usar o comando "yarn lerna run start" para rodar o backend e o frontend juntos.
