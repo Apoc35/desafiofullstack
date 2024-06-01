@@ -38,6 +38,8 @@ Para executar os scripts presentes nos arquivos package.json:
 
 -Rodar no terminal "yarn" para baixar as dependências.
 
+-Já existe um usuário cadastrado com o email desafio@bondy.com.br e senha 123456, que está salva encriptado utilizando a lib bcrypt;
+
 Para executar os scripts presentes nos arquivos package.json:
 
 yarn lerna run + comando (ex: yarn lerna run test:coverage)
