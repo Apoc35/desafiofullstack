@@ -1,0 +1,38 @@
+<main class="flex flex-col items-center justify-center h-screen bg-customGray">
+  <h1 class="text-3xl font-bold mb-4 text-customLightGray text-center w-36">
+    Bondy
+  </h1>
+  <form (ngSubmit)="onLogin()">
+    <div class="flex flex-col items-center mb-4">
+      <label class="font-bold text-customLightGray" for="email">Email</label>
+      <input
+        [(ngModel)]="email"
+        type="text"
+        name="email"
+        class="border border-customLightGray mb-2 px-2 py-1 rounded-sm"
+      />
+      <label class="font-bold text-customLightGray" for="password">Senha</label>
+      <input
+        [(ngModel)]="password"
+        type="password"
+        name="password"
+        class="border border-customLightGray mb-2 px-2 py-1 rounded-sm"
+      />
+    </div>
+    <div class="flex gap-4">
+      <button
+        type="submit"
+        class="bg-customTeal hover:bg-blue-700 text-customDarkGray font-bold py-2 px-4 rounded"
+      >
+        Entrar
+      </button>
+      <button
+        type="button"
+        class="bg-customLightGray hover:bg-gray-500 text-customDarkGray font-bold py-2 px-4 rounded"
+        (click)="resetFields()"
+      >
+        Resetar campos
+      </button>
+    </div>
+  </form>
+</main>
